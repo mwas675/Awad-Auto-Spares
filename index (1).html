@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Awad Auto Spare Shop</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow:wght@400;500;600;700&family=Barlow+Condensed:wght@500;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <!-- ===== NAV ===== -->
+  <nav>
+    <a href="#" class="nav-logo">
+      <svg class="logo-icon" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="16" cy="16" r="14" stroke="#c0392b" stroke-width="2" />
+        <circle cx="16" cy="16" r="6" stroke="#c0392b" stroke-width="2" />
+        <line x1="16" y1="2" x2="16" y2="9" stroke="#c0392b" stroke-width="2" />
+        <line x1="16" y1="23" x2="16" y2="30" stroke="#c0392b" stroke-width="2" />
+        <line x1="2" y1="16" x2="9" y2="16" stroke="#c0392b" stroke-width="2" />
+        <line x1="23" y1="16" x2="30" y2="16" stroke="#c0392b" stroke-width="2" />
+      </svg>
+      AWAD<span> AUTO</span> SPARE SHOP
+    </a>
+    <ul class="nav-links">
+      <li><a href="#products">Products</a></li>
+      <li><a href="#why">Why Us</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="nav-cta" onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})">Get a
+      Quote</button>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="home">
+    <div class="hero-bg"></div>
+    <div class="hero-accent"></div>
+
+    <div class="hero-content">
+      <div class="hero-tag">Nairobi's Awad-Winning Auto Spare Shop</div>
+      <h1>YOUR CAR<em>DEMANDS</em>THE BEST</h1>
+      <p class="hero-sub">Premium tyres, long-life batteries, and essential accessories — sourced from the world's top
+        manufacturers and delivered right to your wheels.</p>
+      <div class="hero-actions">
+        <button class="btn-primary"
+          onclick="document.getElementById('products').scrollIntoView({behavior:'smooth'})">Shop Parts</button>
+        <button class="btn-outline" onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})">Get
+          a Quote</button>
+      </div>
+    </div>
+
+    <div class="hero-stats">
+      <div class="stat">
+        <div class="stat-num">15+</div>
+        <div class="stat-label">Years Experience</div>
+      </div>
+      <div class="stat">
+        <div class="stat-num">2K+</div>
+        <div class="stat-label">Parts In Stock</div>
+      </div>
+      <div class="stat">
+        <div class="stat-num">98%</div>
+        <div class="stat-label">Customer Satisfaction</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TICKER STRIP ===== -->
+  <div class="strip">
+    <div class="strip-inner">
+      <span class="strip-item"><span class="strip-dot"></span> Passenger Tyres</span>
+      <span class="strip-item"><span class="strip-dot"></span> 4x4 &amp; SUV Tyres</span>
+      <span class="strip-item"><span class="strip-dot"></span> Car Batteries</span>
+      <span class="strip-item"><span class="strip-dot"></span> Truck Batteries</span>
+      <span class="strip-item"><span class="strip-dot"></span> Wiper Blades</span>
+      <span class="strip-item"><span class="strip-dot"></span> Brake Pads</span>
+      <span class="strip-item"><span class="strip-dot"></span> Shock Absorbers</span>
+      <span class="strip-item"><span class="strip-dot"></span> Engine Oil</span>
+      <!-- duplicated for seamless loop -->
+      <span class="strip-item"><span class="strip-dot"></span> Passenger Tyres</span>
+      <span class="strip-item"><span class="strip-dot"></span> 4x4 &amp; SUV Tyres</span>
+      <span class="strip-item"><span class="strip-dot"></span> Car Batteries</span>
+      <span class="strip-item"><span class="strip-dot"></span> Truck Batteries</span>
+      <span class="strip-item"><span class="strip-dot"></span> Wiper Blades</span>
+      <span class="strip-item"><span class="strip-dot"></span> Brake Pads</span>
+      <span class="strip-item"><span class="strip-dot"></span> Shock Absorbers</span>
+      <span class="strip-item"><span class="strip-dot"></span> Engine Oil</span>
+    </div>
+  </div>
+
+  <!-- ===== PRODUCTS ===== -->
+  <section class="products-section" id="products">
+    <div class="products-intro">
+      <div>
+        <div class="section-label">What We Stock</div>
+        <h2 class="section-title">CORE<br>PRODUCTS</h2>
+      </div>
+      <p>Every part we sell is genuine, warranty-backed, and tested to East African road conditions.</p>
+    </div>
+
+    <div class="products-grid">
+
+      <!-- Tyres -->
+      <div class="product-card featured">
+        <svg class="product-icon" viewBox="0 0 56 56" fill="none">
+          <circle cx="28" cy="28" r="26" stroke="white" stroke-width="3" />
+          <circle cx="28" cy="28" r="12" stroke="white" stroke-width="3" />
+          <line x1="28" y1="2" x2="28" y2="16" stroke="white" stroke-width="2" />
+          <line x1="28" y1="40" x2="28" y2="54" stroke="white" stroke-width="2" />
+          <line x1="2" y1="28" x2="16" y2="28" stroke="white" stroke-width="2" />
+          <line x1="40" y1="28" x2="54" y2="28" stroke="white" stroke-width="2" />
+          <line x1="7" y1="9" x2="17" y2="19" stroke="white" stroke-width="2" />
+          <line x1="39" y1="39" x2="49" y2="49" stroke="white" stroke-width="2" />
+          <line x1="49" y1="9" x2="39" y2="19" stroke="white" stroke-width="2" />
+          <line x1="17" y1="39" x2="7" y2="49" stroke="white" stroke-width="2" />
+        </svg>
+        <h3>Tyres</h3>
+        <p>Passenger, SUV, 4x4, and commercial tyres from global and regional brands. Fitting &amp; balancing available
+          on-site.</p>
+        <span class="product-tag">Best Seller</span>
+      </div>
+
+      <!-- Batteries -->
+      <div class="product-card">
+        <svg class="product-icon" viewBox="0 0 56 56" fill="none">
+          <rect x="4" y="16" width="48" height="32" rx="3" stroke="#c0392b" stroke-width="2.5" />
+          <rect x="18" y="10" width="8" height="8" rx="1" stroke="#c0392b" stroke-width="2" />
+          <rect x="30" y="10" width="8" height="8" rx="1" stroke="#c0392b" stroke-width="2" />
+          <line x1="15" y1="28" x2="15" y2="40" stroke="#e0ddd8" stroke-width="2.5" />
+          <line x1="10" y1="34" x2="20" y2="34" stroke="#e0ddd8" stroke-width="2.5" />
+          <line x1="36" y1="28" x2="36" y2="40" stroke="#c0392b" stroke-width="2.5" />
+          <line x1="31" y1="34" x2="41" y2="34" stroke="#c0392b" stroke-width="2.5" />
+        </svg>
+        <h3>Batteries</h3>
+        <p>Maintenance-free and heavy-duty batteries for cars, trucks, and commercial vehicles. Free battery testing
+          included.</p>
+        <span class="product-tag">Free Testing</span>
+      </div>
+
+      <!-- Accessories -->
+      <div class="product-card">
+        <svg class="product-icon" viewBox="0 0 56 56" fill="none">
+          <rect x="8" y="8" width="18" height="18" rx="2" stroke="#c0392b" stroke-width="2.5" />
+          <rect x="30" y="8" width="18" height="18" rx="2" stroke="#c0392b" stroke-width="2.5" />
+          <rect x="8" y="30" width="18" height="18" rx="2" stroke="#c0392b" stroke-width="2.5" />
+          <rect x="30" y="30" width="18" height="18" rx="2" stroke="#e0ddd8" stroke-width="2.5" />
+          <line x1="34" y1="39" x2="44" y2="39" stroke="#888880" stroke-width="2" />
+          <line x1="39" y1="34" x2="39" y2="44" stroke="#888880" stroke-width="2" />
+        </svg>
+        <h3>Accessories</h3>
+        <p>Wipers, filters, brake pads, oils, seat covers, mats and more. Everything to keep your vehicle in top
+          condition.</p>
+        <span class="product-tag">500+ Items</span>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ===== BRANDS ===== -->
+  <div class="brands-section">
+    <p class="brands-label">Trusted Brands We Stock</p>
+    <div class="brands-row">
+      <span class="brand-pill">BRIDGESTONE</span>
+      <span class="brand-pill">MICHELIN</span>
+      <span class="brand-pill">DUNLOP</span>
+      <span class="brand-pill">BOSCH</span>
+      <span class="brand-pill">YUASA</span>
+      <span class="brand-pill">PIRELLI</span>
+      <span class="brand-pill">CONTINENTAL</span>
+    </div>
+  </div>
+
+  <!-- ===== WHY US ===== -->
+  <section class="why-section" id="why">
+    <div class="section-label">Our Edge</div>
+    <h2 class="section-title">WHY<br>AWAD AUTO</h2>
+
+    <div class="why-grid">
+      <div class="why-item">
+        <span class="why-num">01</span>
+        <div class="why-icon-bar"></div>
+        <h3>Genuine Parts Only</h3>
+        <p>We refuse to stock counterfeits. Every item on our shelves is sourced directly from authorized distributors —
+          your safety depends on it.</p>
+      </div>
+      <div class="why-item">
+        <span class="why-num">02</span>
+        <div class="why-icon-bar"></div>
+        <h3>Expert Fitment</h3>
+        <p>Our certified technicians handle tyre mounting, wheel balancing, battery installation, and more — right here
+          in our workshop.</p>
+      </div>
+      <div class="why-item">
+        <span class="why-num">03</span>
+        <div class="why-icon-bar"></div>
+        <h3>Competitive Pricing</h3>
+        <p>We negotiate directly with suppliers so you get genuine products at prices that won't break the bank.
+          Price-match guarantee available.</p>
+      </div>
+      <div class="why-item">
+        <span class="why-num">04</span>
+        <div class="why-icon-bar"></div>
+        <h3>Warranty Backed</h3>
+        <p>All products come with manufacturer warranties. If anything fails, we stand behind what we sell — no
+          arguments, no hassle.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section class="contact-section" id="contact">
+    <div class="section-label">Get In Touch</div>
+    <h2 class="section-title">FIND<br>US</h2>
+
+    <div class="contact-grid">
+
+      <!-- Contact Info -->
+      <div class="contact-info">
+        <h3>Visit the Workshop</h3>
+        <div class="contact-detail">
+
+          <div class="c-item">
+            <div class="c-icon">
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                <path
+                  d="M8 1C5.24 1 3 3.24 3 6c0 3.75 5 9 5 9s5-5.25 5-9c0-2.76-2.24-5-5-5zm0 6.5a1.5 1.5 0 110-3 1.5 1.5 0 010 3z"
+                  fill="#c0392b" />
+              </svg>
+            </div>
+            <div class="c-text">
+              <strong>Location</strong>
+              <span>Baricho Road, Nairobi, Kenya</span>
+            </div>
+          </div>
+
+          <div class="c-item">
+            <div class="c-icon">
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                <path
+                  d="M3 2a1 1 0 011-1h2.5a1 1 0 011 .757l.75 3a1 1 0 01-.27.958L6.5 7.2A10.01 10.01 0 009.8 10.5l1.485-1.48a1 1 0 01.958-.27l3 .75a1 1 0 01.757 1V13a1 1 0 01-1 1C6.954 14 2 9.046 2 3a1 1 0 011-1z"
+                  fill="#c0392b" />
+              </svg>
+            </div>
+            <div class="c-text">
+              <strong>Phone / WhatsApp</strong>
+              <span>+254 722 942 983</span>
+            </div>
+          </div>
+
+          <div class="c-item">
+            <div class="c-icon">
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                <rect x="1" y="3" width="14" height="10" rx="1" stroke="#c0392b" stroke-width="1.5" />
+                <path d="M1 4l7 5 7-5" stroke="#c0392b" stroke-width="1.5" />
+              </svg>
+            </div>
+            <div class="c-text">
+              <strong>Email</strong>
+              <span>mwangi675@gmail.com</span>
+            </div>
+          </div>
+
+          <div class="c-item">
+            <div class="c-icon">
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                <circle cx="8" cy="8" r="6" stroke="#c0392b" stroke-width="1.5" />
+                <path d="M8 4v4l3 2" stroke="#c0392b" stroke-width="1.5" stroke-linecap="round" />
+              </svg>
+            </div>
+            <div class="c-text">
+              <strong>Working Hours</strong>
+              <span>Mon – Sat: 7:30 AM – 6:00 PM</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Enquiry Form -->
+      <form class="contact-form" onsubmit="handleSubmit(event)">
+        <div class="form-row">
+          <div class="form-group">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" placeholder="John Kamau" required>
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone / WhatsApp</label>
+            <input type="tel" id="phone" placeholder="+254 7XX XXX XXX" required>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="product">What Do You Need?</label>
+          <select id="product" required>
+            <option value="" disabled selected>Select a product category</option>
+            <option>Tyres — Passenger</option>
+            <option>Tyres — SUV / 4x4</option>
+            <option>Tyres — Commercial / Truck</option>
+            <option>Car Battery</option>
+            <option>Truck Battery</option>
+            <option>Brake Pads &amp; Discs</option>
+            <option>Wiper Blades</option>
+            <option>Engine Oil &amp; Filters</option>
+            <option>Other Accessories</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="vehicle">Your Vehicle (Make, Model, Year)</label>
+          <input type="text" id="vehicle" placeholder="e.g. Toyota Prado 2019">
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" placeholder="Tell us more about what you need..."></textarea>
+        </div>
+        <button type="submit" class="form-submit" id="submit-btn">Send Enquiry</button>
+      </form>
+
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer>
+    <div class="footer-logo">AWAD<span> AUTO</span> SPARE SHOP</div>
+    <ul class="footer-links">
+      <li><a href="#products">Products</a></li>
+      <li><a href="#why">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <p class="footer-copy">&copy; 2026 Award Auto Spare Shop. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
